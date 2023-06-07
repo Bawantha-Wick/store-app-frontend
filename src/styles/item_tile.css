@@ -1,0 +1,108 @@
+.item-tile {
+  background-color: #fac6b7;
+  padding: 1rem 1rem;
+  height: 27rem;
+  border-radius: 2rem 2rem 0 0;
+  color: black;
+}
+.card-header {
+  color: #eb118a;
+  cursor: pointer;
+}
+
+.image-frame {
+  width: 15rem;
+  height: 100%;
+}
+
+.image-frame-main {
+  width: 95%;
+  height: 20rem;
+  background: blue;
+}
+
+.card-data {
+  text-align: left;
+}
+
+.like {
+  cursor: pointer;
+  position: absolute;
+  margin-left: 15.2rem;
+  background: white;
+  border-radius: 20%;
+  font-size: 22px;
+  color: #eb118a;
+}
+
+.label-amount {
+  font-size: 35px;
+  margin-right: -9.5rem;
+  margin-top: 20px;
+  font-family: Bahnschrift;
+  color: #2e3190;
+}
+
+p,
+h3 {
+  color: #eb118a;
+  width: 15rem;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+p {
+  margin-top: -1.5rem;
+  margin-bottom: -0.4rem;
+}
+
+.cart-btn {
+  border-radius: 0 0 1.5rem 1.5rem;
+  border: 0px solid transparent;
+  background: linear-gradient(to bottom, rgb(252, 215, 215), #f46fb4);
+  font-size: 18px;
+  font-family: inherit;
+  padding: 0.6em 1.2em;
+  cursor: pointer;
+  color: white;
+}
+
+.item-count {
+  background: #fac6b7;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 30px;
+  font-family: Bahnschrift;
+  margin-bottom: -1.5rem;
+  color: #2e3190;
+}
+
+.count-label {
+  background: #fac6b7;
+  font-size: 10px;
+  margin-top: 0.6rem;
+  color: #2e3190;
+}
+
+.count-btn {
+  background: #fac6b7;
+  border: 1px solid transparent;
+  font-size: 30px;
+  color: #e98594;
+  cursor: pointer;
+}
+
+.plus-btn {
+  border-radius: 0 0 0 1.5rem;
+}
+
+.minus-btn {
+  border-radius: 0 0 1.5rem 0;
+}
+
+.cart-icon {
+  font-size: 25px;
+  margin-bottom: -0.3rem;
+}
