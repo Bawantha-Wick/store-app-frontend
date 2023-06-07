@@ -27,7 +27,7 @@ const ItemTile = ({ item }) => {
         <div className="image-frame-main">
           {isLike ? <AiFillHeart className="like" onClick={handleIconClick} /> : <AiOutlineHeart className="like" onClick={handleIconClick} />}
 
-          <img className="image-frame" src={item.image} alt={item.title} />
+          <img className="image-frame" src={item.imageURL} alt={item.title} />
         </div>
         <dev className="card-data">
           <h3>{item.title}</h3>
@@ -43,7 +43,7 @@ const ItemTile = ({ item }) => {
           </button>
           <div style={{ display: 'grid', color: 'black', gridTemplateColumns: 'repeat(1, 1fr)' }}>
             <label className="item-count">{`${amount}`}</label>
-            <text className="count-label">Nos</text>
+            <label className="count-label">Nos</label>
           </div>
           <button onClick={increaseAmount} className="count-btn minus-btn">
             +
